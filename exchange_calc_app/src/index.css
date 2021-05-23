@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  height:100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background-image: url(../src/Images/forex.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100%;
+}
+
+.headTitle{
+  background-color: royalblue;
+  margin: auto;
+  margin-bottom: -2%;
+  height: 2.5em;
+  padding-top: 2.5%;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+
+.fromToExBox{
+  margin:auto;
+  margin-bottom: 1%;
+  background-color: rgb(231, 228, 225, 0.97);
+  border: 1px solid royalblue;
+  padding: 2.5em;
+  border-radius: 1em;
+  width: 100%;
+  height: 70vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.exDropdowns{
+  height: 2.5em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1em;
+  
+}
+
+.exInputs{
+  height: 2.5em;
+  
+}
+
+.resultBox{
+  border: 2px solid royalblue;
+  border-radius: 5px;
+  background-color: rgb(201, 196, 191);
+  padding: 1%;
+  width: 80%;
+  margin: auto;
+  z-index: 2;
+  bottom: 15rem;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+
+.exchangeListBox{
+  background-color: rgb(231, 228, 225,0.99);
+  height: 30rem;
+  width:70%;
+  
+  padding: 1%;
+  overflow: auto;
+  position: absolute;
+  top: 30%;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+
+.excListDiv{
+  border: 1px solid royalblue;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.listBtn{
+  border-radius:50%;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.exitBtn{
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius:30px;
+  width: 5rem;
+  height: 3rem;
+  position: relative;
+  left: -45%;
+  
+}
+
+.exMainBtn{
+  border-radius: 30px;
+  background-color: rgb(109, 221, 109);
+  border: 1px solid none;
+  height: 2em;
+  width: 3em;
+  margin: 2.5em;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.excListDiv,th,td{
+  background-color:rgb(231, 228, 225,0.99) ;
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.updateTitles{
+  background-color: royalblue;
+  width: 25%;
+  height: 2em;
+  padding: 1%;
+  margin: auto;
+  border-radius: 30px;
+  color: white;
+  
+  
+}
+
+.newValDiv{
+  background-color: rgba(155, 151, 146, 0.99);
+  width: 22%;
+  margin:auto;
+  margin-top: 1%;
+  padding: 1%;
+  font-weight: bolder;
+  font-size: large;
+  border: 2px solid royalblue ;
+  border-radius: 5px;
+}
+
+.updBtn{
+  margin: 1%;
+}
+
+.bodyUpdPage{
+  background-color: rgb(231, 228, 225,0.99);
+  border-radius: 10px;
+  height: 70vh;
+  padding: 1%;
+  margin-top:1% ;
+}
+
+.updTitle{
+  margin-top: -0.4em;
+  background-color: royalblue;
+  margin:auto;
+  height: 2.5em;
+  padding-top: 2.5%;
+  color: aliceblue;
+  border-radius: 10px;
+
+}
+
+
+.footerDiv{
+  position: fixed;
+  padding-top: 1rem;
+  background-color: rgb(119, 114, 114);
+  height: 3rem;
+  width: 150%;
+  padding-bottom: 2%;
+  bottom: 0;
+  height: 40px;
+  margin-left: -35%;    
+}
+
+.myName{
+  background-color: rgb(33, 33, 138);
+  align-items: center;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
