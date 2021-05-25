@@ -10,7 +10,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 body{
@@ -25,10 +25,18 @@ body{
   background-color: royalblue;
   margin: auto;
   margin-bottom: -2%;
-  height: 2.5em;
-  padding-top: 2.5%;
+  height: 2em;
+  padding: 2.5% 0 2.5% 0;
   color: aliceblue;
   border-radius: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+}
+
+.mainPageBodyTitle{
+  
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -116,7 +124,7 @@ body{
   border: 1px solid none;
   height: 2em;
   width: 3em;
-  margin: 2.5em;
+  
   font-size: x-large;
   font-weight: bolder;
   color: white;
@@ -161,17 +169,16 @@ body{
 .bodyUpdPage{
   background-color: rgb(231, 228, 225,0.99);
   border-radius: 10px;
-  height: 70vh;
   padding: 1%;
   margin-top:1% ;
 }
 
 .updTitle{
-  margin-top: -0.4em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
   background-color: royalblue;
   margin:auto;
-  height: 2.5em;
-  padding-top: 2.5%;
+  padding: 1%;
   color: aliceblue;
   border-radius: 10px;
 
